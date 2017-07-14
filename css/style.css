@@ -206,12 +206,24 @@
 	background-color: #DDDEE0;
 }
 .acordeon-preguntas{
-	background-color: #FFFFFF;
-	padding-left: 3vh;
-	padding-right: 3vh:
-	padding-top: auto;
-	padding-bottom: auto; 
+	background-color: #ffffff;
+	width: 90%;
+	margin: 2vh;
 }
+.acordeon-preguntas h2{
+	font-size: 20px;
+	background-color: #F7A800;
+}
+.acordeon-preguntas h2 a{
+	padding: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.acordeon-preguntas p{
+	font-size: 13px;
+	padding: 5px;
+}
+
 /*Estilos seccion saldo*/
 .saldo{
 	background-color: #DDDEE0;
