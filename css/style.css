@@ -201,3 +201,44 @@
 	list-style: none;
 	padding-top: 6px;
 }
+/*estilos preguntas-frecuentes*/
+.preguntas{
+	background-color: #DDDEE0;
+}
+.acordeon-preguntas{
+	background-color: #FFFFFF;
+	padding-left: 3vh;
+	padding-right: 3vh:
+	padding-top: auto;
+	padding-bottom: auto; 
+}
+/*Estilos seccion saldo*/
+.saldo{
+	background-color: #DDDEE0;
+}
+.input-bip{
+	width: 100%;
+	height: 30px;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom-color: #333F41;
+	background-color: #DDDEE0;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.selector-tarjetas{
+	width: 100%;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.boton-saldo{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	background-color: #F7A800;
+	color: #ffffff;
+	font-size: 20px;
+	width: 100%;
+	height: 50px;
+	border: none;
+}
