@@ -209,23 +209,39 @@
 .preguntas{
 	background-color: #DDDEE0;
 }
-.acordeon-preguntas{
+.titulo{
+	background-color: #F7A800;
+	width: 100%;
+	height: 40vh;
+	margin-top: 0px;
+	padding-top: 112px;
+}
+.titulo h1{
+	color: #fff;
+}
+#acordeon{
 	background-color: #ffffff;
 	width: 90%;
-	margin: 2vh;
+	margin-left: 18px;
 }
-.acordeon-preguntas h2{
-	font-size: 20px;
-	background-color: #F7A800;
+#acordeon section p{
+	display:none;
 }
-.acordeon-preguntas h2 a{
-	padding: 5px;
-	color: #FFFFFF;
+#acordeon section a{
+	color: #3E3F41;
 	text-decoration: none;
 }
-.acordeon-preguntas p{
-	font-size: 13px;
-	padding: 5px;
+#acordeon section h1{
+	font-size: 20px;
+	background-color: #F7A800;
+	color: #fff;
+	text-align: center;
+}
+#acordeon section a:hover{
+	color: ;
+}
+#acordeon section:target p{
+	display:block;
 }
 
 /*Estilos seccion saldo*/

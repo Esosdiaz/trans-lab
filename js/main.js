@@ -1,5 +1,6 @@
 /* wabalaba dub dub */
 var correo;
+
 $(document).ready(function(){
 
 //Inicio de sesión, validaciones
@@ -26,13 +27,14 @@ $(document).ready(function(){
         	if(contrasena == "" || contrasena.length > 8 || !numReg.test(contrasena) ){
         		$('#mensajePass').fadeIn();
         		}else{
-				window.location.href = "opciones.html";
+				window.location.href = "opciones.html"; //redirecciona una vez que se cumplamn las validaciones. 
 				}	
         	}      				
 	}
-	//rescatar correo y ponerlo en el perfil
-	 
-
+	//esconde y muestra el menu lateral
+	$("#open-hide").click(function(){
+		$(this).toggleClass("show");
+	});
 
 	//imprimir las tarjetas
 	  $("#boton-agregar").click(function(){
@@ -43,16 +45,7 @@ $(document).ready(function(){
 
 
 
-$("#open-hide").click(function(){//esconde y muestra el menu lateral
-		$(this).toggleClass("show");
-	});
 
-	$("#acordeon div").hide();
-	$("#acordeon h2").on('click', function(){
-		$("#respuestas").slideDown();
-
-	})
-	
 
 
 	//var estado=false;
