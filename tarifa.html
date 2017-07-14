@@ -1,51 +1,65 @@
 <!-- /* wabalaba dub dub */ -->
+<!-- /* wabalaba dub dub */ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>TransLab - </title>
+	<title>TransLab - Tarifa </title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet">    
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="index2">
-	<a id="open-hide" class="open-hide"></a>
-	<ul id="menu" class="menu">
-		<li><a href=""><i class="fa fa-usd" aria-hidden="true"></i>Ver saldo</a></li>
-		<li><a href=""><i class="fa fa-calculator" aria-hidden="true"></i>Calcular Tarifa</a></li>
-		<li><a href=""><i class="fa fa-user" aria-hidden="true"></i>Perfil</a></li>
-		<li><a href=""><i class="fa fa-question" aria-hidden="true"></i>Preguntas Frecuentes</a></li>
-		<li><a href=""><i class="fa fa-arrow-left" aria-hidden="true"></i>Home</a></li>
-	</ul>
-
-
-
-<!--
-	<header class="container text-center col-sm-12 col-xs-12 header-transLab">
-		<img src="docs/imagen.png">
+<body class="tarifas">
+	<header class="container text-center col-sm-12 col-xs-12 header-opciones">
 		<h1>TRANS-LAB</h1>
 	</header>
-	<section class="container text-center form-transLab">
+	<div class="nav">	
+		<a id="open-hide" class="open-hide"></a>
+		<ul id="menu" class="menu pull-left">
+			<li><a href=""><img src="docs/img/dollar.png"> Ver saldo</a></li>
+			<li><a href=""><img src="docs/img/key.png"> Calcular Tarifa</a></li>
+			<li><a href=""><img src="docs/img/avatar.png"> Perfil</a></li>
+			<li><a href=""><img src="docs/img/question.png"> Preguntas Frecuentes</a></li>
+			<li><a href=""><img src="docs/img/arrow.png"> Home</a></li>
+		</ul>
+	</div>
+	<div class="container cont-tarifas">
 		<div class="row">
 			<div class="col-sm-12 col-xs-12">
-				<input id="correoE" class="correo" placeholder="Correo Electrónico">
-			</div>
-			<div class="col-sm-12 col-xs-12">
-				<input id="contrasena" class="pass" placeholder="Contraseña">
-			</div>
-			<div class="col-sm-12 col-xs-12">
-				<button type="submit" class="botonInicio">INICIAR SESIÓN</button>
-			</div>
-			<div class="col-sm-12 col-xs-12 olvidar">
-				<a>¿Olvidaste tu contraseña?</a>
-			</div>
-			<div class="col-sm-12 col-xs-12 registro">
-				<p>¿NO TIENES UNA CUENTA?<a> REGÍSTRATE</a></p>
+				<input class="input-tarifas" placeholder="Ingrese el número de su tarjeta Bip!">
 			</div>
 		</div>
-	</section>-->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<div class="row">
+			<div class="col-sm-6 col-xs-6">
+				<select class="form-control selector-tarifas">
+				  	<option value="">Seleccione su tarifa</option>
+  					<option value="alto">Horario Punta</option>
+  					<option value="medio">Horario Valle</option>
+  					<option value="bajo">Horario Bajo</option>	
+				</select>
+			</div>
+			<div class="col-sm-6 col-xs-6">
+				<select class="form-control selector-tarjetas-tarifas">
+				  	<option value="">Seleccione su tarjeta</option>
+  					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+  					<option value="5">5</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+				<button type="submit" class="boton-tarifa">CALCULAR</button>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Bootstrap Latest compiled and minified JavaScript -->
