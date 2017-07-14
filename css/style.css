@@ -156,3 +156,48 @@
 	border: none;
 	margin-top: 2vh;
 }
+/*estilos perfil*/
+.perfil{
+	background-color: #DDDEE0;	
+}
+.foto-perfil{
+	background-color: #F7A800;
+	width:100%;
+	height: auto;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+.correo-tarjetas{
+	background-color: #ffffff;
+	width: 100%;
+	height: 50px;
+	margin-top: 3vh; 
+	margin-bottom:3vh;
+}
+.numero-tarjeta{
+	width: 103%;
+	height: 30px;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom-color: #333F41;
+	background-color: #DDDEE0;
+}
+.boton-agregar{
+	background-color: #F7A800;
+	color: #ffffff;
+	font-size: 20px;
+	width: 100%;
+	height: 50px;
+	border: none;
+	margin-top: 2vh;
+}
+.tarjetas{
+	background-color: #ffffff;
+	width: 100%;
+	height: 30px;
+	margin-top: 3vh; 
+	margin-bottom:3vh;
+	list-style: none;
+	padding-top: 6px;
+}
