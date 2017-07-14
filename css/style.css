@@ -50,6 +50,10 @@
 .pass:-ms-input-placeholder { 
   	color:#3e3F41;
 }
+.errores{
+	color: #ffffff;
+	background-color: #F7A800;
+}
 .botonInicio{
 	background-color: #F7A800;
 	color: #3e3F41;

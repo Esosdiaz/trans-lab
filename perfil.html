@@ -16,29 +16,29 @@
 	<div class="nav">	
 		<a id="open-hide" class="open-hide"></a>
 		<ul id="menu" class="menu pull-left">
-			<li><a href=""><img src="docs/img/dollar.png"> Ver saldo</a></li>
-			<li><a href=""><img src="docs/img/key.png"> Calcular Tarifa</a></li>
-			<li><a href=""><img src="docs/img/avatar.png"> Perfil</a></li>
-			<li><a href=""><img src="docs/img/question.png"> Preguntas Frecuentes</a></li>
-			<li><a href=""><img src="docs/img/arrow.png"> Home</a></li>
+			<li><a href="saldo.html"><img src="docs/img/dollar.png"> Ver saldo</a></li>
+			<li><a href="tarifa.html"><img src="docs/img/key.png"> Calcular Tarifa</a></li>
+			<li><a href="perfil.html"><img src="docs/img/avatar.png"> Perfil</a></li>
+			<li><a href="preguntas.html"><img src="docs/img/question.png"> Preguntas Frecuentes</a></li>
+			<li><a href="opciones.html"><img src="docs/img/arrow.png"> Home</a></li>
 		</ul>
 	</div>
 	<section class="container col-sm-12 col-xs-12 text-center foto-perfil">
 			<img class="foto" src="docs/img/user.png">
 	</section>
 	<section class="container col-sm-12 col-xs-12 text-center guardar-tarjetas">
-		<div class="col-sm-12 col-xs-12 text-center correo-tarjetas ">
+		<div class="col-sm-12 col-xs-12 text-center correo-tarjetas" id="correoTarjetas">
 				<!--Acá va el correo del usuario-->
 		</div>
 		<div class="col-sm-12 col-xs-12">
-			<input class="numero-tarjeta" placeholder="Número tarjeta Bip!">
+			<input class="numero-tarjeta" placeholder="Número tarjeta Bip!" id="numero-tarjeta">
 		</div>
 		<div class="col-sm-12 col-xs-12">
-			<button type="submit" class="boton-agregar">AGREGAR TARJETA</button>
+			<button type="submit" class="boton-agregar" id="boton-agregar">AGREGAR TARJETA</button>
 		</div>
 		<div class="col-sm-12 col-xs-12">
-			<ul id="" class="">
-				<li class="tarjetas">acá van los números de las tarjetas</li>
+			<ul id="imprimirTarjetas" class="imprimirTarjetas">
+				
 			</ul>
 		</div>
 	</section>
