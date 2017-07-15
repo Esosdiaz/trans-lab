@@ -43,7 +43,7 @@ $(document).ready(function(){
 		$("#numero-tarjeta").val(""); // mantiene el input vacio luego de enviar el contenido
 	}); //evento al click del boton
 
-	  //API
+	  //API saldo
 	  $("#boton-saldo").click(function(){
 	  var inputBip = $("#input-bip").val();
 	  console.log(inputBip);
@@ -63,6 +63,15 @@ $(document).ready(function(){
         .always(function() {
             console.log('Completado')
         });
+
+        //API tarifa
+        $("#boton-tarifa").click(function(){
+	  		var inputBip = $("#input-bip").val();
+        	console.log(inputTarifa);
+        	var inputHorario =$("#input-horario").val();
+        	console.log(inputHorario);
+        })
+
 })
 	  
 	  

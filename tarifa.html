@@ -27,16 +27,16 @@
 	<div class="container cont-tarifas">
 		<div class="row">
 			<div class="col-sm-12 col-xs-12">
-				<input class="input-tarifas" placeholder="Ingrese el número de su tarjeta Bip!">
+				<input class="input-bip" id="input-bip" placeholder="Ingrese el número de su tarjeta Bip!">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-xs-6">
-				<select class="form-control selector-tarifas">
+				<select id="input-horario" class="form-control selector-tarifas">
 				  	<option value="">Seleccione su tarifa</option>
-  					<option value="alto">Horario Punta</option>
-  					<option value="medio">Horario Valle</option>
-  					<option value="bajo">Horario Bajo</option>	
+  					<option value="740">$740</option>
+  					<option value="680">$680</option>
+  					<option value="640">$640</option>	
 				</select>
 			</div>
 			<div class="col-sm-6 col-xs-6">
@@ -52,9 +52,10 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-xs-12">
-				<button type="submit" class="boton-tarifa">CALCULAR</button>
+				<button type="submit" id="boton-tarifa" class="boton-tarifa">CALCULAR</button>
 			</div>
 		</div>
+		<div id="resultado-tarifa"></div>
 	</div>
 
 
