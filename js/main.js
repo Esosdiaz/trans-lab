@@ -43,14 +43,33 @@ $(document).ready(function(){
 		$("#numero-tarjeta").val(""); // mantiene el input vacio luego de enviar el contenido
 	}); //evento al click del boton
 
+	  //API
+	  $("#boton-saldo").click(function(){
+	  var inputBip = $("#input-bip").val();
+	  console.log(inputBip);
+	  $.ajax({
+		url: 'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip='+inputBip,
+		type: 'GET',
+		datatype: 'JSON',
+	})
+		.done(function(response) {
+            console.log(response);
+            $("#resultado-saldo").append("<div class='resultado-saldo text-center' id='resultado-saldo'><div class= 'row'><div class= 'col-xs-12 col-sm-12 text-center caja-titulo'><p class='saldo-total'>SALDO TOTAL</p></div><div class= 'col-xs-12 col-sm-12 text-center caja-saldo'><h1 class='saldo-valor'>" + response.saldoTarjeta + "</h1></div></div></div>");
+            $("#resultado-saldo").val("")
+        })
+        .fail(function() {
+            console.log('Error')
+        })
+        .always(function() {
+            console.log('Completado')
+        });
+})
+	  
+	  
+	  
 
 
 
 
-
-	//var estado=false;
-	//$("#btn-toggle").on('click',function(){
-	//			$('.seccion-toggle').slideToggle();
-	//		});
 
 });

@@ -274,6 +274,23 @@
 	height: 50px;
 	border: none;
 }
+.caja-titulo {
+    background-color: #3E3F41;
+    color: #fff;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    margin-left: 60px;
+}
+.caja-saldo{
+	background-color: #F7A800;
+    color: #fff;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    margin-left: 60px;
+}
+
 /*Estilos seccion tarifas*/
 .tarifas{
 	background-color: #DDDEE0;
